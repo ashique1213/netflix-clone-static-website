@@ -178,6 +178,12 @@ ul{
     cursor: pointer;
     position: relative;
 }
+.accordion li label:hover,
+.accordion li label:focus{
+    background-color:rgb(255,255,255,0.25);
+    cursor: pointer;
+}
+}
 label::after{
     content: '+';
     font-size: 40px;
