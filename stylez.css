@@ -175,14 +175,13 @@ ul{
     font-weight: 500;
     background: #303030;
     margin-bottom: 10px;
-    cursor: pointer;
     position: relative;
+    transition: 0.2s all ease-in-out;
 }
 .accordion li label:hover,
 .accordion li label:focus{
     background-color:rgb(255,255,255,0.25);
     cursor: pointer;
-}
 }
 label::after{
     content: '+';
